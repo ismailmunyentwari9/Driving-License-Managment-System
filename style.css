@@ -1,0 +1,121 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	background-color: white;
+}
+
+section{
+	widith:100%;
+	display: flex;
+
+}
+.links{
+	width:50%;
+	background-color:black;
+	height:100vh;
+	opacity:0.75;
+}
+
+.contents{
+	width: 50%;
+	
+	height:100vh;
+}
+.icons{
+
+	color:white;
+	font-weight: bold;
+	font-size:35px;
+	margin-bottom:4rem;
+	background-color:#567;
+	width: 89%;
+	height:5vh;
+	box-shadow:2px 5px 4px 1px white;
+	font-family:sans-serif;
+
+}
+.big_icon{
+	margin-top:10rem;
+}
+.s1{
+	color:black;
+	font-size:45px;
+	float:right;
+	margin-right:2rem;
+}
+.s2{
+	color:yellow;
+	font-size:50px;
+}
+.s3{
+	color:green;
+	font-size:50px;
+}
+.s4{
+	color: blue;
+	font-size:50px;
+}
+h1{
+	margin-top: 2rem;
+}
+
+.icons:hover{
+	width:92%;
+}
+a{
+	text-decoration: none;
+}
+.s1:hover{
+	transform: rotate(180deg);
+	transition:1s;
+}
+.dform{
+	
+	background-color: white;
+	 width:89%;
+	 height:74vh;
+	 margin-top:6rem;
+
+}
+form{
+margin-top: 4rem;
+
+
+	
+}
+input,select{
+	width:70%;
+	height:3em;
+	margin-bottom:1rem;
+	border-radius:4px;
+
+
+}
+.s_button{
+	font-size:55px;color:red;
+}
+button{
+	padding:1px 8px 1px;
+	border-radius:4px;
+	border:1px solid #5678;
+	box-shadow:2px 5px 6px 3px black;
+}
+.head_form{
+	border-bottom: 1px solid black;
+	font-size:25px;
+	padding-bottom:2rem;
+	padding-top:1rem;
+
+}
+
+.s_head{
+	color:red;
+	border:1px solid black;
+	height: 50px;
+	width:70px;
+	border-radius:100%;
+
+}
+
